@@ -11,4 +11,4 @@ for (k in 1:20) { # loop with 20 iterations
   Z <- Z^2+C # the central difference equation
   X[,,k] <- exp(-abs(Z)) # capture results
 }
-write.gif(X, "Mandelbrot.gif", col=jet.colors, delay=1000)
+write.gif(X, "Mandelbrot.gif", col=jet.colors, delay=50)
